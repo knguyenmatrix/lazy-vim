@@ -1,0 +1,12 @@
+return {
+  "hrsh7th/nvim-cmp",
+  opts = {
+    mapping = require("cmp").mapping.preset.insert({
+      ["<C-k>"] = require("cmp").mapping.select_prev_item(), -- previous suggestion
+      ["<C-j>"] = require("cmp").mapping.select_next_item(), -- next suggestion
+      ["<C-Space>"] = require("cmp").mapping.complete(), -- show completion suggestions
+      ["<C-e>"] = require("cmp").mapping.abort(), -- close completion window
+      ["<CR>"] = require("cmp").mapping.confirm({ select = false }),
+    }),
+  },
+}

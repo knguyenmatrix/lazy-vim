@@ -9,7 +9,6 @@ return {
       "tailwindcss-language-server",
       "clangd",
       "pyright",
-      "omnisharp",
       "prettier",
     },
   },
