@@ -21,3 +21,5 @@ vim.keymap.set("n", "N", "Nzz", { desc = "Center code when searching up" })
 vim.keymap.set("n", "<C-o>", "<C-o>zz", { desc = "Center code when going back buffer" })
 vim.keymap.set("n", "<C-i>", "<C-i>zz", { desc = "Center code when going forward buffer" })
 vim.keymap.set("n", "gd", "gdzz", { desc = "Center code when going to definition" })
+
+vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { noremap = true, silent = true, desc = "Smart rename" })
