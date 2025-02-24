@@ -7,3 +7,5 @@ vim.g.autoformat = false
 -- disable newline at end of file
 vim.opt.eol = false
 vim.opt.fixeol = false
+
+vim.g.neovide_scroll_animation_length = 0
